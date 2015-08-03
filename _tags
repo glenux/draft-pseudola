@@ -1,0 +1,4 @@
+true: strict_sequence, annot, debug
+<src>: include
+# <src/*>: package(cmdliner)
+# <src/pseudo

@@ -1,0 +1,12 @@
+
+(fast-lock-cache-data 2 (quote (15853 . 48389)) (quote (t ("\\<\\(external\\|open\\|include\\)\\>" (0 (quote tuareg-font-lock-governing-face) nil)) ("\\<\\(s\\(ig\\|truct\\)\\|module\\([ 	
+]+type\\)?\\|functor\\|\\(with\\|and\\|let\\)[ 	
+]+\\(type\\|module\\)\\)\\>" (0 (quote tuareg-font-lock-governing-face) nil)) ("\\<\\(val\\|type\\|method\\|constraint\\|class\\|in\\|inherit\\|initializer\\|let\\|rec\\|and\\|begin\\|object\\|end\\)\\>" (0 (quote tuareg-font-lock-governing-face) nil)) ("\\<\\(as\\|do\\(ne\\|wnto\\)?\\|else\\|for\\|if\\|let\\|m\\(atch\\|utable\\)\\|new\\|p\\(arser\\|rivate\\)\\|t\\(hen\\|o\\|ry\\)\\|w\\(h\\(en\\|ile\\)\\|ith\\)\\|lazy\\|virtual\\|exception\\|raise\\|failwith\\|assert\\|fun\\(ction\\)?\\)\\>" (0 (quote font-lock-keyword-face) nil)) ("\\<open\\>[ 	]*\\([_A-Za-z¿-ÿ]\\(\\w\\|[._]\\)*\\)" (1 (quote font-lock-function-name-face) nil)) ("\\<\\(\\(method\\([ 	
+]+private\\)?\\)\\([ 	
+]+virtual\\)?\\|val\\([ 	
+]+mutable\\)?\\|constraint\\|external\\|and\\|let\\([ 	
+]+rec\\)?\\)\\>[ 	]*\\(\\(\\w\\|[-_ 	,?~:.]\\|(\\(\\w\\|[-_ 	,?~:.=]\\)*)\\)*\\)" (7 (quote font-lock-variable-name-face) nil)) ("," (0 (quote tuareg-font-lock-operator-face) t)) ("\\<\\(\\(class\\([ 	
+]+type\\)?\\)\\([ 	
+]+virtual\\)?\\|inherit\\|module\\([ 	
+]+type\\)?\\|type\\)\\>[ 	]*\\(\\(\\<['_A-Za-z¿-ÿ~?]\\(\\w\\|_\\)*\\>:?[ 	]*\\)*\\)\\>" (6 (quote font-lock-type-face) nil)) ("\\([?~]?[_A-Za-z¿-ÿ]\\(\\w\\|_\\)*[ 	
+]*:\\)[^:>=]" (1 (quote font-lock-variable-name-face) nil)) ("\\<exception\\>[ 	]*\\(\\<[_A-Za-z¿-ÿ]\\(\\w\\|_\\)*\\>\\)" (1 (quote font-lock-variable-name-face) nil)) ("\\<\\(as[lr]\\|false\\|l\\(and\\|xor\\|or\\|s[lr]\\)mod\\|not\\|ref\\|o[fr]\\|true\\|unit\\)\\>" (0 (quote font-lock-reference-face) nil)) ("[][;,()|{}@^!:*=<>&/%+~?---]\\.?\\|\\.\\." (0 (quote tuareg-font-lock-operator-face) nil)))) (quote ((font-lock-variable-name-face 39087 39122 39037 39050 106 117 98 101) (font-lock-keyword-face 41320 41325 39170 39174 39126 39131 88 97) (font-lock-comment-face 40 85) (font-lock-function-name-face 26 32) (font-lock-string-face 41279 41290 41215 41226 41153 41164 41090 41101 41028 41039 40966 40977 40902 40913 40839 40850 40775 40786 40712 40723 40649 40660 40586 40597 40523 40534 40460 40471 40365 40376 40267 40278 40204 40215 40142 40153 40079 40090 40018 40029 39951 39962 39885 39896 39824 39835 39762 39773 39701 39712 39639 39650 39577 39588 39517 39528 39454 39465 39392 39403 39328 39339 39259 39270 39190 39201 20379 39025 1706 20352 1187 1679 666 1158 145 637 5 16))))

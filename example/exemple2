@@ -1,0 +1,6 @@
+letrec i = ref 1;;
+
+letrec refe = fun i -> 
+	let j = ref 1 in 
+		i:=(!i+(!j+1));;
+

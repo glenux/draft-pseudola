@@ -1,0 +1,18 @@
+letrec boucle_interne = fun f -> 
+	let c = call fgetc [f] 
+  in if c=-1
+             then 0
+          else call fputc [c,stdout]; boucle_interne  (f);;
+
+letrec boucle_externe = fun i -> fun argc -> fun argv ->
+       if (i<argc) then
+   let nom=i.[argv] in
+	 let f=call fopen [nom,r] in boucle_interne(f);call fclose [f];boucle_externe (i+1) (argc) (argv) 
+	else 0;;
+
+letrec main = boucle_externe (1) (argc) (argv);;
+
+
+
+
+

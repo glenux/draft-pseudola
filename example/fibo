@@ -1,0 +1,6 @@
+letrec fibo = fun i -> 
+	if (i<1) then (0) 
+	else (if (i=0) then (1)
+	else (let fiba= fibo (i-2) in (
+		let fibb= fibo (i-1) in ( fiba + fibb ))));;
+
